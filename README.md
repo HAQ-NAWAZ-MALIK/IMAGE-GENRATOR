@@ -4,7 +4,7 @@ This is a simple image generator using [OpenAI API](https://openai.com/api/). yo
 
 ## Demo
 
-### [imagegenrator-omar.netlify.app/)
+### [https://imagegenrator-omar.netlify.app/]
 
 ![image](https://github.com/HAQ-NAWAZ-MALIK/ats-resume-project/assets/86514900/d48dc7dd-dd58-4f70-a928-3abefb80b369)
 )
