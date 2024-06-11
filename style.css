@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.input-style {
+    border: 2px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border */
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    color: rgba(224, 224, 224, 0.8); /* Semi-transparent text */
+    background-color: rgba(33, 33, 33, 0.8); /* Semi-transparent background */
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.input-style:focus {
+    border-color: rgba(255, 255, 255, 0.6); /* More opaque on focus */
+    color: rgba(224, 224, 224, 1); /* Fully opaque text on focus */
+    background-color: rgba(33, 33, 33, 1); /* Fully opaque background on focus */
+}
+
+.button-style {
+    background-color: rgba(30, 144, 255, 0.8); /* Semi-transparent blue background */
+    color: rgba(255, 255, 255, 0.8); /* Semi-transparent white text */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.button-style:hover {
+    background-color: rgba(30, 144, 255, 1); /* Fully opaque blue background on hover */
+    color: rgba(255, 255, 255, 1); /* Fully opaque white text on hover */
+    transform: translateY(-1px);
+}
+
+.button-style:focus {
+    outline: none;
+    background-color: rgba(30, 144, 255, 1); /* Fully opaque blue background on focus */
+    color: rgba(255, 255, 255, 1); /* Fully opaque white text on focus */
+}
