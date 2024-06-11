@@ -27,30 +27,4 @@ This is a simple image generator using [OpenAI API](https://openai.com/api/). yo
 
 [OpenAI API](https://openai.com/api/)
 
-`Note:` Sign up for an API key and add it to the `api.js` file
 
-
-
-
-
-
-Go to the project directory
-
-1. Create api.js file in the root directory and add your API key
-
-```javascript
-  const api = "YOUR_API_KEY";
-```
-
-
-```
-
-Open `index.html` in your browser
-
-## Authors
-
-- [@HAQ NAWAZ MALIK](https://www.github.com/HAQ-NAWAZ-MALIK)
-
-## License
-
-[MIT](https://github.com/HAQ-NAWAZ-MALIK/image-generator-using-openai-api/blob/master/LICENSE)
